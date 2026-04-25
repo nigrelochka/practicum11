@@ -1,8 +1,8 @@
 text = input('введите текст: ').split(' ')
 
 new_text = []
-punctuation_marks = ['.',',','?','!',';',':','-',
-                     '(',')','[',']','"']
+punctuation_marks = ['.', ',', '?', '!', ';', ':', '-',
+                     '(', ')', '[', ']', '"']
 
 for word in text:
     new_word = ''
